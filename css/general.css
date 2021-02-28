@@ -1,0 +1,50 @@
+/**
+ * General, Hoja de estilos CSS
+ *
+ * Propiedades para las etiquetas Genericas.
+ *
+ * @author  Alex Barrios <alex@alexertech.com>
+ * @version 05.03.2011
+ * @package css
+ */
+
+body{
+    margin          : 0;
+    margin-bottom   : 10px;
+    font-family     : Verdana,Lucida,Sans;
+    color           : #000000;
+    font-size       : small;
+    background-color: #e7e7e7;
+}
+
+a{
+    text-decoration : none;
+    color           : #c75726;
+}
+
+a:hover{
+    text-decoration : underline;
+}
+
+img{
+    border:0;
+}
+
+input,select,textarea {
+    border           : 1px solid #CCCCCC;
+    font-family      : Verdana,Lucida,Sans;
+    font-size        : small;
+    padding          : 2px;
+}
+
+input:focus,select:focus,textarea:focus {
+    border           : 1px solid #FFA500;
+}
+
+select{
+    width            : 200px;
+}
+
+td.colRes{
+    height           : 30px;
+}

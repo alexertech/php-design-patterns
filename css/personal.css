@@ -1,0 +1,169 @@
+/**
+ * Personal, Hoja de estilos CSS
+ *
+ * Estilos especiales, e individuales para lograr ciertos efectos.
+ *
+ * @author  Alex Barrios <alex@alexertech.com>
+ * @version 06.03.2011
+ * @package css
+ */
+
+/**
+ * tooltips
+ */
+
+
+/* Precarga */
+#preload{
+    text-align      : center;
+    position        : absolute;
+    z-index         : 1000;
+    top             : 55px;
+    margin-left     : 690px;
+    line-height     : 5px;
+    display         : none;
+}
+
+
+a.moreInfo {
+    position         : relative;
+    z-index          : 24;
+    text-decoration  : none;
+    cursor           : help;
+    color            : #000000;
+    text-align       : left;
+}
+
+a.moreInfo:hover {
+    z-index          : 25;
+    background-color : #E0E0E0;
+    text-decoration  : none
+}
+
+a.moreInfo span {
+    display          :none;
+}
+
+a.moreInfo:hover span {
+    display          : block;
+    position         : absolute;
+    border           : 1px solid #000000;
+    background-color : #fdff7c;
+    color            : #000000;
+    text-align       : left;
+    text-decoration  : none;
+    z-index          : 100;
+    padding          : 3px;
+    left             : -3px;
+    top              : -3px;
+    width            : 140px;
+    height           : auto;
+    opacity          : 0.8;
+    font-size        : x-small;
+}
+
+
+/*
+ * CSS de Alineacion, colores de fondo y formularios en general
+ */
+.centrado {
+    margin-top       : 10px;
+    margin-left      : auto;
+    margin-right     : auto;
+    margin-bottom    : 10px;
+}
+
+
+.titulo {
+    background-color : #1A1A1A;
+    color            : #ffffff;
+    font-weight      : bold;
+}
+
+.list_titulo {
+    background-color : #636363;
+    color            : #ffffff;
+    font-weight      : bold;
+    padding          : 5px;
+}
+
+.list_ico {
+    text-align       : center;
+    border-left      : 1px solid #cccccc;
+}
+
+.colRes {
+    text-align       : left;
+    padding-left     : 10px;
+}
+
+.borde {
+    border           : 1px solid #CCCCCC;
+}
+
+.error,.mensaje {
+    color            : red;
+    padding          : 5px;
+    text-align       : center;
+}
+
+.mensaje {
+    color            : green;
+}
+
+.sombra1 {
+    background-color : #E5E5E5;
+    padding          : 7px;
+    text-align       : right;
+}
+
+.sombra2 {
+    background-color : #FFFFFF;
+    padding          : 7px;
+    text-align       : left;
+}
+
+.sombra3 {
+    background-color : #ffffff;
+    border-top       : 1px solid #CCCCCC;
+    padding          : 7px;
+    text-align       : center;
+}
+
+.tip {
+    color            : #999;
+    text-align       : left;
+}
+
+a.nav {
+    color            : #fff;
+}
+
+a.nav:hover {
+    color            : #FFBF2A;
+}
+
+
+select option.listaTitulo {
+    background-color : #4D4D4D;
+    color            : #ffffff;
+    font-weight      : bold;
+}
+
+select option.listaOpcion {
+    padding-left      : 20px;
+}
+
+.qViewTitle {
+    font-size         : x-small;
+    border            : 1px solid #CCCCCC;
+    background-color  : #f5f5f5;
+    padding           : 4px;
+    font-weight       : bold;
+}
+
+.qViewContent {
+    font-size         : small;
+    padding           : 4px;
+    padding-left      : 8px;
+}

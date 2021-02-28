@@ -1,0 +1,17 @@
+<?php
+/**
+ * Objeto de Valor
+ *
+ * @author  Alex Barrios <alex@alexertech.com>
+ * @version #FECHA
+ * @package #NOMBCAP
+ */
+
+// VO
+class #NOMBCAP{
+
+    #CAMPOS
+
+}
+
+?>

@@ -1,0 +1,57 @@
+/**
+ * Diagrama, Hoja de estilos CSS
+ *
+ * Contiene las propiedades necesarias para crear el diagrama de la
+ * interfáz de la aplicación.
+ *
+ * @author  Alex Barrios <alex@alexertech.com>
+ * @version 05.03.2011
+ * @package css
+ */
+
+#area {
+    width            : 825px;
+    height           : 100%;
+    margin-left      : auto;
+    margin-right     : auto;
+}
+
+#top {
+    margin-top       : 5px;
+    width            : 825px;
+    height           : 80px;
+    background-image : url(../images/top.png);
+    background-repeat: no-repeat;
+    z-index          : 1;
+    position         : relative;
+}
+
+#menu {
+    width            : 172px;
+    margin-left      : 7px;
+    margin-top       : -12px;
+    z-index          : 0;
+    float            : left;
+}
+
+
+#principal {
+    width            : 618px;
+    min-height       : 372px;
+    float            : left;
+    padding          : 5px;
+}
+
+#bottom {
+    padding          : 10px;
+    clear            : both;
+    text-align       : center;
+}
+
+#banner {
+    width            : 788px;
+    height           : 57px;
+    background-image : url(../images/banner_oficial.jpg);
+}
+
+

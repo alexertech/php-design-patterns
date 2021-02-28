@@ -1,0 +1,50 @@
+/**
+ * Menu, Hoja de estilos CSS
+ *
+ * Propiedades utilizadas por el menú de la aplicación.
+ *
+ * @author  Alex Barrios <alex@alexertech.com>
+ * @version 05.03.2011
+ * @package css
+ */
+
+#area_menu{
+    background       : url(../images/bg_menu.png) repeat-y top left;
+}
+
+.t_menu{
+    margin-left      : -3px;
+    font-size        : 11px;
+    cursor           : pointer;
+    text-align       : left;
+    text-decoration  : none;
+    background       : url(../images/bg-menuItem.jpg) no-repeat top left;
+    color            : #FFFFFF;
+    width            : 148px;
+    height           : 25px;
+    padding-top      : 8px;
+    padding-left     : 35px;
+}
+
+.t_menu:hover{
+    color        : #f99468;
+}
+
+.opcs_menu,.opcs_submenu{
+    width            : 113px;
+    cursor           : pointer;
+    text-align       : left;
+    text-decoration  : none;
+    padding          : 3px;
+    padding-left     : 32px;
+    padding-right    : 35px;
+    font-size        : 11px;
+    display          : block;
+    color            : #000000;
+}
+
+.opcs_menu:hover{
+    display          : block;
+    text-decoration  : none;
+    color            : #f99468;
+}
